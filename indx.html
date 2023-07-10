@@ -9,6 +9,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <style>
+      nav ul li {
+        display: inline-block;
+        width: 130px;
+      }
       div {
         color: blueviolet;
         background-color: bisque;
@@ -19,9 +23,6 @@
       }
       a {
         text-decoration: none;
-      }
-      .icon {
-        border: 2px solid red;
       }
       i {
         color: blue;
@@ -35,6 +36,10 @@
       }
       span a {
         margin-left: 15px;
+      }
+      span ul li {
+        display: inline-block;
+        width: 100px;
       }
     </style>
   </head>
@@ -58,37 +63,59 @@
     <br />
     <br />
     <nav>
-      <a href="home.html" target="myFile">HOME</a>
-      <a href="techStack.html" target="myFile">TECHSTACK</a>
-      <a href="projectDetails.html" target="myFile">PROJECT</a>
-      <a href="education.html" target="myFile">EDUCATION</a>
-      <a href="aboutMe.html" target="myFile">ABOUT ME</a>
+      <ul>
+        <li><a href="home.html" target="myFile">HOME</a></li>
+        <li><a href="techStack.html" target="myFile">TECHSTACK</a></li>
+        <li><a href="projectDetails.html" target="myFile">PROJECT</a></li>
+        <li><a href="education.html" target="myFile">EDUCATION</a></li>
+        <li><a href="aboutMe.html" target="myFile">ABOUT ME</a></li>
+      </ul>
     </nav>
     <br />
     <br />
     <br />
-    <iframe width="650" height="550" name="myFile" src="home.html"></iframe>
+    <iframe
+      width="650"
+      height="550"
+      name="myFile"
+      src="home.html"
+      style="border-color: red"
+    ></iframe>
     <br />
     <br />
     <br />
     <footer>
-      <span class="icon">
-        <span><strong>Follow Me</strong></span>
-        <a href="https://github.com/" target="_blank"
-          ><i class="fa fa-github-square" aria-hidden="true"></i
-        ></a>
-        <a href="https://in.linkedin.com/" target="_blank"
-          ><i class="fa fa-linkedin-square" aria-hidden="true"></i
-        ></a>
-        <a href="https://www.google.com/" target="_blank"
-          ><i class="fa fa-google" aria-hidden="true"></i
-        ></a>
-        <a href="https://www.instagram.com/?hl=en" target="_blank"
-          ><i class="fa fa-instagram" aria-hidden="true"></i
-        ></a>
-        <a href="https://www.facebook.com/login/" target="_blank"
-          ><i class="fa fa-facebook-square" aria-hidden="true"></i>
-        </a>
+      <span>
+        <ul>
+          <li>
+            <span><strong>Follow Me</strong></span>
+          </li>
+          <li>
+            <a href="https://github.com/" target="_blank"
+              ><i class="fa fa-github-square" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://in.linkedin.com/" target="_blank"
+              ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.google.com/" target="_blank"
+              ><i class="fa fa-google" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"
+              ><i class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/login/" target="_blank"
+              ><i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
       </span>
       <br />
       <p>Copyright © 2023 Zoom Video communication, Inc. All rights rserved</p>
