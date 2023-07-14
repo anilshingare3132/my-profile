@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+   
+    <style>
+        .form{
+            border: red solid 10px;
+            width: 300px;
+            height: 480px;
+            background-color: antiquewhite;
+        }
+        h2{
+            font-family: 'Poppins', sans-serif;
+            margin-left: 10px;
+        }
+        .summery{
+            margin: 10px;
+            background-color: rgb(140, 140, 250);
+        }
+        
+        button{
+            margin-top: 15px;
+            margin-left: 150px;
+            background-color: rgb(145, 182, 169);
+        }
+        td input{
+            padding-right: 70px;
+            background-color: rgb(172, 230, 210);
+        }
+        .sub td input{
+            padding-bottom: 20px;
+            
+        }
+    </style>
+</head>
+<body class="form">
+    <h2>Subscriber</h2>
+    <hr>
+    <div class="summery">
+    <p>We're sorry to see you go, but they, no hard feelings,hopefully we will see you backone day.</p>
+    <p>Please fill in your email  in order to unscribe from the list.</p>
+    <p>you will receive an email to confirm your unsubscription,just to make sure this is not an accident or somebody else tries to unsubscribeyou</p>
+</div>
+<table>
+    <tbody>
+        <tr>
+            <td><label>Email<sup style="color: red;">*</sup></label></td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Example @ gmail.com" autofocus></td>
+        </tr>
+        <tr>
+            <td>Unsubscribe reason</td>
+            <tr class="sub">
+                <td><input type="text" placeholder="Unsubscribe reason"></td>
+            </tr>
+            
+        </tr>
+        
+    </tbody>
+    
+</table>
+<button>Unsubscribe</button>
+</body>
+</html>
