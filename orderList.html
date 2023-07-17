@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .div1 {
+        color: rgb(7, 17, 26);
+        display: inline-block;
+        border: 5px seashell;
+        background-color: beige;
+        height: 300px;
+        width: 200px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      .div2 {
+        color: rgb(3, 11, 19);
+        display: inline-block;
+        border: 5px seashell;
+        background-color: beige;
+        height: 300px;
+        width: 200px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        position: relative;
+        left: 10px;
+        bottom: 40px;
+      }
+      .div3 {
+        color: rgb(2, 16, 27);
+        display: inline-block;
+        border: 5px seashell;
+        background-color: beige;
+        height: 300px;
+        width: 200px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        position: relative;
+        left: 20px;
+      }
+      .head {
+        color: aliceblue;
+        text-align: center;
+        background-color: rgb(247, 69, 69);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        font-family: "Signika Negative", sans-serif;
+        font-weight: bold;
+      }
+      .bas {
+        color: aliceblue;
+        text-align: center;
+        background-color: rgb(65, 96, 141);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        font-family: "Signika Negative", sans-serif;
+        font-weight: bold;
+      }
+
+      ul li {
+        list-style: none;
+      }
+
+      ul li {
+        font-family: "Signika Negative", sans-serif;
+      }
+      .point::before {
+        content: " ✔️";
+      }
+      .lis::before {
+        content: "❌";
+      }
+      p {
+        text-align: center;
+        font-size: x-large;
+        font-weight: bold;
+      }
+      button {
+        background-color: rgb(18, 180, 12);
+        color: aliceblue;
+        height: 30px;
+        width: 150px;
+        margin-left: 25px;
+        border-radius: 5px;
+      }
+
+      .Container {
+        position: relative;
+        left: 300px;
+        top: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="div1">
+        <div class="head">Basic</div>
+        <ul>
+          <li class="point">Hosting</li>
+          <li class="lis">Domain</li>
+          <li class="point">1 GB Space</li>
+          <li class="lis">Free SSL</li>
+          <li class="point">1 Website Host</li>
+        </ul>
+
+        <p>$5</p>
+        <button id="button">Buy Now</button>
+      </div>
+      <div class="div2">
+        <div class="bas">Standard</div>
+        <ul>
+          <li class="point">Hosting</li>
+          <li class="point">Domain</li>
+          <li class="point">10 GB Space</li>
+          <li class="lis">Free SSL</li>
+          <li class="point">4 Website Host</li>
+        </ul>
+
+        <p>$10</p>
+        <button id="button">Buy Now</button>
+      </div>
+      <div class="div3">
+        <div class="head">Standard</div>
+        <ul>
+          <li class="point">Hosting</li>
+          <li class="point">Domain</li>
+          <li class="point">10 GB Space</li>
+          <li class="point">Free SSL</li>
+          <li class="point">4 Website Host</li>
+        </ul>
+
+        <p>$20</p>
+        <button id="button">Buy Now</button>
+      </div>
+    </div>
+  </body>
+</html>
